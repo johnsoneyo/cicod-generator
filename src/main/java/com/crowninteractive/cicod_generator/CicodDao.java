@@ -160,7 +160,7 @@ public class CicodDao {
             ps1.setString(1, cus.getAccountNumber());
             ps1.setString(2, cus.getAccountType());
             ps1.setDouble(3, 0.00);
-            ps1.setString(4, cus.getAccountStatus());
+            ps1.setString(4, "ACTIVE");
             ps1.setString(5, "system");
             ps1.setString(6, "New Cicod Number Generated");
             ps1.executeUpdate();
